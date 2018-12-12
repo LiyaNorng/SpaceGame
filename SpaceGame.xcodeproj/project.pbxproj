@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C00AADC2167230C00D72EB3 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8C00AADB2167230C00D72EB3 /* Rain.sks */; };
+		8C00AAE02167268600D72EB3 /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8C00AADF2167268600D72EB3 /* Snow.sks */; };
+		8C00AAE32167270F00D72EB3 /* Stars.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 8C00AAE12167270F00D72EB3 /* Stars.scnp */; };
+		8C00AAE42167270F00D72EB3 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C00AAE22167270F00D72EB3 /* star.png */; };
+		8C00AAE62167274B00D72EB3 /* Reactor.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 8C00AAE52167274B00D72EB3 /* Reactor.scnp */; };
+		8C00AAEC21672D6A00D72EB3 /* Spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8C00AAEB21672D6A00D72EB3 /* Spark.sks */; };
+		8C1D55C52166B86700EA720B /* massiveWarSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C1D55C42166B86700EA720B /* massiveWarSound.wav */; };
+		8C1D55C72166B8BC00EA720B /* tropicalCyclone.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C1D55C62166B8BC00EA720B /* tropicalCyclone.wav */; };
+		8C77F6E821669D7500BECECF /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8C77F6E721669D7500BECECF /* MenuScene.sks */; };
+		8C77F6EA21669D9C00BECECF /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C77F6E921669D9C00BECECF /* MenuScene.swift */; };
+		8CB4003A21672E770057D8A3 /* Sparks.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8CB4003921672E770057D8A3 /* Sparks.sks */; };
+		8CFA68DD216461AA00E13F35 /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8CFEE36C2163D80C00F09C9F /* torpedo.mp3 */; };
+		8CFA68DE216461B000E13F35 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8CFEE36A2163D80400F09C9F /* explosion.mp3 */; };
+		8CFA68E02164871900E13F35 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8CFA68DF2164871900E13F35 /* Explosion.sks */; };
+		8CFC2DC92166708A00B28E35 /* bigExplosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8CFC2DC82166708A00B28E35 /* bigExplosion.mp3 */; };
+		8CFC2DCF216678B700B28E35 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC2DCE216678B700B28E35 /* User.swift */; };
+		8CFE6B7E21682B3B0001FE85 /* EXPLOSION.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8CFE6B7D21682B3B0001FE85 /* EXPLOSION.atlas */; };
 		8CFEE3372163D7DF00F09C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFEE3362163D7DF00F09C9F /* AppDelegate.swift */; };
 		8CFEE3392163D7DF00F09C9F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8CFEE3382163D7DF00F09C9F /* GameScene.sks */; };
 		8CFEE33B2163D7DF00F09C9F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8CFEE33A2163D7DF00F09C9F /* Actions.sks */; };
@@ -17,6 +34,8 @@
 		8CFEE3472163D7E000F09C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFEE3452163D7E000F09C9F /* LaunchScreen.storyboard */; };
 		8CFEE3522163D7E000F09C9F /* SpaceGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFEE3512163D7E000F09C9F /* SpaceGameTests.swift */; };
 		8CFEE35D2163D7E000F09C9F /* SpaceGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFEE35C2163D7E000F09C9F /* SpaceGameUITests.swift */; };
+		8CFEE3712163D87F00F09C9F /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8CFEE3702163D87F00F09C9F /* Starfield.sks */; };
+		8CFEE3732163D92C00F09C9F /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8CFEE3722163D92C00F09C9F /* MyParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +56,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C00AADB2167230C00D72EB3 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
+		8C00AADF2167268600D72EB3 /* Snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow.sks; sourceTree = "<group>"; };
+		8C00AAE12167270F00D72EB3 /* Stars.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Stars.scnp; sourceTree = "<group>"; };
+		8C00AAE22167270F00D72EB3 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		8C00AAE52167274B00D72EB3 /* Reactor.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Reactor.scnp; sourceTree = "<group>"; };
+		8C00AAEB21672D6A00D72EB3 /* Spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spark.sks; sourceTree = "<group>"; };
+		8C1D55C42166B86700EA720B /* massiveWarSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = massiveWarSound.wav; sourceTree = "<group>"; };
+		8C1D55C62166B8BC00EA720B /* tropicalCyclone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tropicalCyclone.wav; sourceTree = "<group>"; };
+		8C77F6E721669D7500BECECF /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		8C77F6E921669D9C00BECECF /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		8CB4003921672E770057D8A3 /* Sparks.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Sparks.sks; sourceTree = "<group>"; };
+		8CFA68DF2164871900E13F35 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		8CFC2DC82166708A00B28E35 /* bigExplosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigExplosion.mp3; sourceTree = "<group>"; };
+		8CFC2DCE216678B700B28E35 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8CFE6B7D21682B3B0001FE85 /* EXPLOSION.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = EXPLOSION.atlas; sourceTree = "<group>"; };
 		8CFEE3332163D7DF00F09C9F /* SpaceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFEE3362163D7DF00F09C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CFEE3382163D7DF00F09C9F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -53,6 +87,10 @@
 		8CFEE3582163D7E000F09C9F /* SpaceGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFEE35C2163D7E000F09C9F /* SpaceGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceGameUITests.swift; sourceTree = "<group>"; };
 		8CFEE35E2163D7E000F09C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CFEE36A2163D80400F09C9F /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		8CFEE36C2163D80C00F09C9F /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
+		8CFEE3702163D87F00F09C9F /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		8CFEE3722163D92C00F09C9F /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +143,29 @@
 			children = (
 				8CFEE3362163D7DF00F09C9F /* AppDelegate.swift */,
 				8CFEE3382163D7DF00F09C9F /* GameScene.sks */,
+				8C77F6E721669D7500BECECF /* MenuScene.sks */,
+				8C77F6E921669D9C00BECECF /* MenuScene.swift */,
 				8CFEE33A2163D7DF00F09C9F /* Actions.sks */,
+				8CB4003921672E770057D8A3 /* Sparks.sks */,
+				8C00AAEB21672D6A00D72EB3 /* Spark.sks */,
+				8C00AAE52167274B00D72EB3 /* Reactor.scnp */,
+				8C00AAE12167270F00D72EB3 /* Stars.scnp */,
+				8C00AAE22167270F00D72EB3 /* star.png */,
+				8C00AADF2167268600D72EB3 /* Snow.sks */,
+				8C00AADB2167230C00D72EB3 /* Rain.sks */,
+				8CFA68DF2164871900E13F35 /* Explosion.sks */,
+				8CFEE3722163D92C00F09C9F /* MyParticle.sks */,
+				8C1D55C42166B86700EA720B /* massiveWarSound.wav */,
+				8C1D55C62166B8BC00EA720B /* tropicalCyclone.wav */,
 				8CFEE33C2163D7DF00F09C9F /* GameScene.swift */,
+				8CFC2DCE216678B700B28E35 /* User.swift */,
+				8CFC2DC82166708A00B28E35 /* bigExplosion.mp3 */,
 				8CFEE33E2163D7DF00F09C9F /* GameViewController.swift */,
+				8CFEE36C2163D80C00F09C9F /* torpedo.mp3 */,
+				8CFE6B7D21682B3B0001FE85 /* EXPLOSION.atlas */,
 				8CFEE3402163D7DF00F09C9F /* Main.storyboard */,
+				8CFEE36A2163D80400F09C9F /* explosion.mp3 */,
+				8CFEE3702163D87F00F09C9F /* Starfield.sks */,
 				8CFEE3432163D7E000F09C9F /* Assets.xcassets */,
 				8CFEE3452163D7E000F09C9F /* LaunchScreen.storyboard */,
 				8CFEE3482163D7E000F09C9F /* Info.plist */,
@@ -238,10 +295,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CFEE3712163D87F00F09C9F /* Starfield.sks in Resources */,
+				8CFE6B7E21682B3B0001FE85 /* EXPLOSION.atlas in Resources */,
+				8C00AAE32167270F00D72EB3 /* Stars.scnp in Resources */,
+				8C00AADC2167230C00D72EB3 /* Rain.sks in Resources */,
 				8CFEE3422163D7DF00F09C9F /* Main.storyboard in Resources */,
+				8CFC2DC92166708A00B28E35 /* bigExplosion.mp3 in Resources */,
 				8CFEE3392163D7DF00F09C9F /* GameScene.sks in Resources */,
+				8C00AAE62167274B00D72EB3 /* Reactor.scnp in Resources */,
+				8CB4003A21672E770057D8A3 /* Sparks.sks in Resources */,
+				8C1D55C52166B86700EA720B /* massiveWarSound.wav in Resources */,
+				8CFA68DE216461B000E13F35 /* explosion.mp3 in Resources */,
+				8C77F6E821669D7500BECECF /* MenuScene.sks in Resources */,
 				8CFEE3442163D7E000F09C9F /* Assets.xcassets in Resources */,
+				8CFEE3732163D92C00F09C9F /* MyParticle.sks in Resources */,
+				8C00AAE42167270F00D72EB3 /* star.png in Resources */,
+				8C00AAEC21672D6A00D72EB3 /* Spark.sks in Resources */,
 				8CFEE3472163D7E000F09C9F /* LaunchScreen.storyboard in Resources */,
+				8CFA68E02164871900E13F35 /* Explosion.sks in Resources */,
+				8CFA68DD216461AA00E13F35 /* torpedo.mp3 in Resources */,
+				8C00AAE02167268600D72EB3 /* Snow.sks in Resources */,
+				8C1D55C72166B8BC00EA720B /* tropicalCyclone.wav in Resources */,
 				8CFEE33B2163D7DF00F09C9F /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +341,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CFC2DCF216678B700B28E35 /* User.swift in Sources */,
 				8CFEE33D2163D7DF00F09C9F /* GameScene.swift in Sources */,
+				8C77F6EA21669D9C00BECECF /* MenuScene.swift in Sources */,
 				8CFEE33F2163D7DF00F09C9F /* GameViewController.swift in Sources */,
 				8CFEE3372163D7DF00F09C9F /* AppDelegate.swift in Sources */,
 			);
@@ -445,7 +521,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8475XEKZ5A;
 				INFOPLIST_FILE = SpaceGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +540,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8475XEKZ5A;
 				INFOPLIST_FILE = SpaceGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
